@@ -39,7 +39,7 @@ class TabComponent extends Component {
       <button
         {...props}
         id={`${tabFor}-tab`}
-        role="tab"
+        role="webtab"
         aria-selected={selected}
         aria-controls={tabFor}
         onClick={onClick}
