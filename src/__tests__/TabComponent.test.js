@@ -88,7 +88,7 @@ test('<TabComponent /> should have the correct aria attributes', () => {
 
   expect(tab.find('button').prop('id')).toBe('foo-tab');
   expect(tab.find('button').prop('aria-controls')).toBe('foo');
-  expect(tab.find('button').prop('role')).toBe('tab');
+  expect(tab.find('button').prop('role')).toBe('webtab');
 });
 
 test('<TabComponent /> should be able to set any className', () => {
